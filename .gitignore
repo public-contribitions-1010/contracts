@@ -9,13 +9,12 @@ test_snapshots/
 .stellar
 
 # env
-.env
+temp_auto_push.bat
 
 # editor / OS
 .DS_Store
 *.swp
 *.swo
-.vscode/
 .idea/
 
 # mimo / mimocode
@@ -24,3 +23,6 @@ test_snapshots/
 
 # deploy script dependencies (scripts/)
 node_modules/
+.gitignore
+branch_structure.json
+config.bat
